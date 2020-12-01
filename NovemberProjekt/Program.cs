@@ -6,7 +6,11 @@ namespace NovemberProjekt
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //BlackJack - För att jag literally aldrig bestämmer mig om vad jag ska göra.
+
+            
+
+            Console.ReadLine();
         }
     }
 }
