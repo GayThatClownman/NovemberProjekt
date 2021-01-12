@@ -10,7 +10,7 @@ namespace NovemberProjekt
 
             bool endState = false;
 
-            while (endState = false)
+            while (endState == false)
             {
                 
             }
