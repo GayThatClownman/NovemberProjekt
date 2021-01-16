@@ -12,7 +12,9 @@ namespace NovemberProjekt
 
             while (endState == false)
             {
-                
+                Deck deck1 = new Deck();
+
+
             }
 
             
