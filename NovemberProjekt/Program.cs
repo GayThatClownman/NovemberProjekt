@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace NovemberProjekt
 {
@@ -6,12 +7,13 @@ namespace NovemberProjekt
     {
         static void Main(string[] args)
         {
-            //BlackJack - För att jag literally aldrig bestämmer mig för vad jag ska göra.
+            //BlackJack
 
             bool endState = false;
 
             while (endState != true)
             {
+
                 Player player = new Player();
                 player.IntroPrompt();
 

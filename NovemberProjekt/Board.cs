@@ -12,7 +12,7 @@ namespace NovemberProjekt
 
         public int CalcBoardValue()
         {
-
+            
             // For-Loop för att ta värdena från listen och addera ihop till ett värde.
 
             return boardValue;
