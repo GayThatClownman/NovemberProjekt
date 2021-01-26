@@ -6,20 +6,22 @@ namespace NovemberProjekt
     {
         static void Main(string[] args)
         {
-            //BlackJack - För att jag literally aldrig bestämmer mig om vad jag ska göra.
+            //BlackJack - För att jag literally aldrig bestämmer mig för vad jag ska göra.
 
             bool endState = false;
 
-            while (endState == false)
+            while (endState != true)
             {
-                Deck deck1 = new Deck();
+                Player player = new Player();
+                player.IntroPrompt();
 
 
+                Deck deck = new Deck();
+
+                
             }
 
             
-
-            Console.ReadLine();
         }
     }
 }

@@ -4,7 +4,7 @@ namespace NovemberProjekt
 {
     public class Card
     {
-        private string suit;
+        // private string suit;
         private int cardNumber;
         private int cardValue;
 

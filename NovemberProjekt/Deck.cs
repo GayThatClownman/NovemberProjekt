@@ -3,7 +3,7 @@ using System;
 
 namespace NovemberProjekt
 {
-    public class Deck
+    public class Deck: Card
     {
         private int cardCount;
         public List<int> cardList = new List<int>();
