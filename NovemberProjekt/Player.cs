@@ -4,14 +4,16 @@ namespace NovemberProjekt
 {
     public class Player
     {
-
+        // Variabel "action" som används i olika actionmetoder som utför det spelaren vill göra.
         public string action;
         
+        // Metod för spelaren som utför handlingen  "Hit", där ett kort tas från dens List, och dess värde adderas till spelarens totala kort-värde.
         public string actionHit()
         {
             return action;
         }
 
+        // Metod för spelaren som utför handlingen "Hold", där spelarens kort-värde jämförs med det slumpade talet för att se om han vinner. 
         public string actionHold()
         {
 
@@ -19,6 +21,13 @@ namespace NovemberProjekt
 
         }
 
+        // Metod för spelaren som utför handlingen "End", som avslutar spelet.
+        public string actionEnd()
+        {
+            return action;
+        }
+
+        // Metod som körs i början av spelet som skriver ut instruktioner till spelaren om hur spelet körs. 
         public void IntroPrompt()
         {
             System.Console.WriteLine("Welcome to BlackJack!");
@@ -38,6 +47,7 @@ namespace NovemberProjekt
             System.Console.WriteLine("Press ENTER to start playing.");
 
             Console.ReadLine();
+            Console.Clear();
         }
 
     }

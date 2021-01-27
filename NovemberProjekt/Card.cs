@@ -4,8 +4,13 @@ namespace NovemberProjekt
 {
     public class Card
     {
-        // private string suit;
+
+        // public string suit;
+
+        // Int som lagrar kortets nummer
         public int cardNumber;
+
+        // Int som lagrar kortets värde, separat från numret.
         public int cardValue;
         
     }
