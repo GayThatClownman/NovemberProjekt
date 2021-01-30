@@ -8,13 +8,13 @@ namespace NovemberProjekt
         public string action;
         
         // Metod för spelaren som utför handlingen  "Hit", där ett kort tas från dens List, och dess värde adderas till spelarens totala kort-värde.
-        public string actionHit()
+        public string ActionHit()
         {
             return action;
         }
 
         // Metod för spelaren som utför handlingen "Hold", där spelarens kort-värde jämförs med det slumpade talet för att se om han vinner. 
-        public string actionHold()
+        public string ActionHold()
         {
 
             return action;
@@ -22,7 +22,7 @@ namespace NovemberProjekt
         }
 
         // Metod för spelaren som utför handlingen "End", som avslutar spelet.
-        public string actionEnd()
+        public string ActionEnd()
         {
             return action;
         }

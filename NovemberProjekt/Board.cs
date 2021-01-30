@@ -3,7 +3,7 @@ using System;
 
 namespace NovemberProjekt
 {
-    public class Board: Deck
+    public class Board
     {
         // Int-variabel som innehåller det totala värdet av spelarens kort.
         private int boardValue;
